@@ -1,0 +1,801 @@
+CustomerID,Age,Region,TenureMonths,SubscriptionType,MonthlyChargesINR,TotalChargesINR,ContractType,SupportTickets,LatePayments,PaymentMethod,AutoPay,Churn
+CUST-100001,57,South,33,Standard,767.25,23893.97,Month-to-Month,4,1,UPI,Yes,Yes
+CUST-100002,44,South,45,Basic,476.72,21627.46,Two Year,0,1,UPI,Yes,Yes
+CUST-100003,64,South,57,Basic,414.81,22500.07,One Year,1,1,UPI,No,Yes
+CUST-100004,57,East,44,Pro,1171.76,50309.16,Month-to-Month,4,0,Card,Yes,Yes
+CUST-100005,58,North,49,Pro,1130.19,55980.21,Month-to-Month,3,0,Wallet,No,No
+CUST-100006,61,East,30,Standard,688.38,19997.65,One Year,0,0,UPI,Yes,No
+CUST-100007,27,Central,51,Pro,1085.09,55909.42,Two Year,2,3,Net Banking,No,No
+CUST-100008,45,Central,37,Basic,470.93,16972.18,Month-to-Month,4,3,Net Banking,Yes,Yes
+CUST-100009,64,South,65,Standard,769.91,50252.99,Two Year,2,1,Net Banking,No,No
+CUST-100010,64,North,6,Standard,687.66,4187.79,Month-to-Month,1,2,Wallet,No,Yes
+CUST-100011,64,Central,48,Pro,1166.91,56352.06,Two Year,1,0,Wallet,Yes,No
+CUST-100012,56,South,18,Standard,778.23,13451.57,Month-to-Month,0,0,UPI,No,No
+CUST-100013,50,West,68,Standard,696.46,45793.24,One Year,2,0,UPI,Yes,No
+CUST-100014,52,West,32,Standard,684.25,20710.0,Month-to-Month,4,0,Card,Yes,Yes
+CUST-100015,57,Central,32,Basic,477.63,14554.04,Month-to-Month,3,1,Wallet,Yes,Yes
+CUST-100016,36,West,58,Standard,698.22,39823.32,Two Year,1,1,Wallet,No,No
+CUST-100017,34,East,46,Pro,1135.61,52546.83,Month-to-Month,2,0,Wallet,Yes,Yes
+CUST-100018,41,North,40,Standard,706.15,27763.75,Month-to-Month,3,1,Net Banking,No,Yes
+CUST-100019,53,West,8,Standard,681.71,5148.85,Month-to-Month,3,1,Wallet,Yes,Yes
+CUST-100020,31,West,22,Basic,430.61,9427.87,Month-to-Month,3,3,Net Banking,No,No
+CUST-100021,31,North,10,Pro,1180.09,11348.45,Month-to-Month,4,0,Card,No,Yes
+CUST-100022,66,East,57,Basic,480.08,26845.25,Month-to-Month,4,1,Wallet,Yes,Yes
+CUST-100023,59,East,62,Pro,1071.73,63253.15,Month-to-Month,1,1,Card,Yes,No
+CUST-100024,34,East,15,Pro,1179.67,17991.95,Month-to-Month,0,2,UPI,No,No
+CUST-100025,48,East,62,Basic,443.24,27876.36,Two Year,0,0,Wallet,Yes,No
+CUST-100026,21,Central,72,Basic,396.91,29068.88,Month-to-Month,2,0,Card,Yes,No
+CUST-100027,25,North,34,Standard,685.41,23530.63,Month-to-Month,1,3,Wallet,No,Yes
+CUST-100028,62,North,22,Pro,1168.6,26147.53,Month-to-Month,3,2,Net Banking,No,Yes
+CUST-100029,31,Central,72,Basic,466.44,32328.87,One Year,1,2,Card,No,No
+CUST-100030,56,East,27,Basic,454.85,11936.5,Month-to-Month,0,2,Net Banking,Yes,No
+CUST-100031,56,East,15,Pro,1085.05,16170.4,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100032,27,Central,50,Basic,461.81,22194.59,One Year,1,0,Net Banking,No,No
+CUST-100033,58,East,32,Pro,1169.82,38046.67,Month-to-Month,2,2,Card,No,No
+CUST-100034,41,North,60,Pro,1139.35,67656.41,Month-to-Month,5,0,Net Banking,No,No
+CUST-100035,68,South,34,Standard,773.37,25484.78,Month-to-Month,2,4,Net Banking,No,Yes
+CUST-100036,22,West,42,Basic,397.43,16484.21,Two Year,2,1,UPI,Yes,No
+CUST-100037,37,North,19,Pro,1145.65,20819.53,Two Year,2,0,Card,Yes,No
+CUST-100038,46,East,29,Pro,1077.4,29830.18,Month-to-Month,2,0,Wallet,Yes,Yes
+CUST-100039,59,North,15,Basic,390.09,5881.07,Month-to-Month,3,2,Wallet,No,Yes
+CUST-100040,24,East,27,Standard,690.89,18798.22,Month-to-Month,1,2,Card,Yes,Yes
+CUST-100041,55,South,3,Basic,418.91,1265.4,Month-to-Month,3,1,UPI,No,Yes
+CUST-100042,60,West,30,Standard,695.49,21174.48,One Year,4,1,Wallet,Yes,Yes
+CUST-100043,58,North,33,Pro,1101.84,34836.9,Month-to-Month,1,0,UPI,No,Yes
+CUST-100044,68,North,57,Basic,412.48,22666.96,Month-to-Month,1,4,Net Banking,No,No
+CUST-100045,41,South,60,Basic,387.31,23621.39,Month-to-Month,0,1,Wallet,No,Yes
+CUST-100046,54,South,69,Pro,1093.11,75433.61,Month-to-Month,2,1,UPI,Yes,Yes
+CUST-100047,58,East,54,Pro,1087.82,55932.44,One Year,3,1,Wallet,Yes,Yes
+CUST-100048,65,North,44,Standard,746.79,30982.73,Month-to-Month,2,2,Wallet,No,Yes
+CUST-100049,25,West,72,Basic,437.52,30387.56,Month-to-Month,4,3,Card,No,Yes
+CUST-100050,57,South,61,Basic,367.21,21919.45,One Year,0,0,Net Banking,No,No
+CUST-100051,26,West,57,Pro,1086.86,61967.64,Month-to-Month,4,2,Net Banking,Yes,Yes
+CUST-100052,45,South,57,Pro,1152.38,62891.22,Month-to-Month,3,4,UPI,Yes,Yes
+CUST-100053,63,Central,9,Pro,1092.77,9585.07,Month-to-Month,5,2,Net Banking,Yes,Yes
+CUST-100054,56,North,36,Basic,450.32,16268.51,Month-to-Month,2,1,UPI,Yes,Yes
+CUST-100055,28,West,59,Pro,1075.17,62898.29,One Year,0,2,Net Banking,No,No
+CUST-100056,32,West,8,Standard,721.57,5586.26,One Year,1,1,Card,No,Yes
+CUST-100057,50,East,68,Basic,378.95,26097.78,Month-to-Month,4,2,Wallet,Yes,Yes
+CUST-100058,48,Central,22,Pro,1065.4,23436.09,One Year,0,0,UPI,No,No
+CUST-100059,52,Central,61,Standard,762.32,45351.19,One Year,4,1,Net Banking,Yes,No
+CUST-100060,51,East,68,Pro,1145.2,76085.48,One Year,0,1,Net Banking,No,Yes
+CUST-100061,32,South,35,Standard,708.21,24508.5,Two Year,0,0,Net Banking,Yes,No
+CUST-100062,26,Central,63,Basic,369.74,22312.97,Month-to-Month,2,1,Net Banking,No,Yes
+CUST-100063,56,South,49,Standard,783.14,36473.02,One Year,1,1,Card,Yes,Yes
+CUST-100064,46,Central,47,Pro,1182.89,52725.32,Two Year,0,0,Wallet,No,No
+CUST-100065,58,North,33,Basic,423.72,13302.15,Two Year,0,2,Card,Yes,No
+CUST-100066,21,South,49,Standard,666.89,32186.02,Month-to-Month,1,0,UPI,Yes,Yes
+CUST-100067,51,South,36,Pro,1082.73,38656.74,Two Year,0,0,UPI,No,No
+CUST-100068,64,East,24,Basic,389.88,9037.25,One Year,1,1,Card,No,No
+CUST-100069,48,Central,16,Standard,728.58,11632.6,One Year,0,0,UPI,No,No
+CUST-100070,52,East,25,Basic,469.91,11160.78,Two Year,1,2,Card,Yes,No
+CUST-100071,39,Central,8,Standard,728.02,5725.51,Month-to-Month,1,2,UPI,Yes,Yes
+CUST-100072,40,South,41,Standard,757.17,29298.76,Month-to-Month,3,3,Card,Yes,Yes
+CUST-100073,30,East,18,Standard,689.94,11764.37,Month-to-Month,2,0,Wallet,No,No
+CUST-100074,66,South,33,Pro,1167.57,36530.54,Month-to-Month,3,1,Wallet,No,No
+CUST-100075,44,East,56,Standard,739.51,39480.7,Month-to-Month,3,3,Wallet,Yes,Yes
+CUST-100076,25,Central,63,Standard,781.56,47255.53,Month-to-Month,0,1,Card,Yes,No
+CUST-100077,44,South,33,Pro,1146.54,38095.22,One Year,0,0,Wallet,Yes,No
+CUST-100078,44,North,40,Basic,407.95,16068.87,Month-to-Month,0,2,Net Banking,Yes,Yes
+CUST-100079,25,East,56,Standard,682.06,38513.62,Month-to-Month,1,1,Card,Yes,Yes
+CUST-100080,40,Central,65,Pro,1177.45,72405.11,Month-to-Month,3,1,Net Banking,Yes,Yes
+CUST-100081,42,Central,67,Standard,694.26,45851.95,Month-to-Month,3,2,Card,No,Yes
+CUST-100082,28,South,4,Basic,369.61,1435.58,Month-to-Month,0,4,UPI,Yes,Yes
+CUST-100083,45,North,66,Pro,1120.78,72909.03,Two Year,1,1,Net Banking,No,No
+CUST-100084,26,North,36,Pro,1107.88,40417.14,Two Year,0,1,UPI,No,No
+CUST-100085,23,North,41,Standard,665.15,25862.39,Month-to-Month,3,4,UPI,No,Yes
+CUST-100086,38,South,33,Basic,423.35,13481.58,Month-to-Month,2,1,Card,Yes,Yes
+CUST-100087,67,East,42,Pro,1135.7,48454.45,Month-to-Month,6,2,Card,Yes,Yes
+CUST-100088,32,East,35,Standard,739.13,24461.84,Month-to-Month,5,2,Wallet,Yes,Yes
+CUST-100089,18,South,30,Pro,1099.65,33525.98,Month-to-Month,2,2,Wallet,Yes,Yes
+CUST-100090,43,East,1,Basic,396.57,400.35,Two Year,2,0,Card,Yes,No
+CUST-100091,19,North,46,Pro,1125.09,50241.85,One Year,0,0,Net Banking,Yes,No
+CUST-100092,27,South,1,Standard,723.48,734.99,One Year,1,0,Card,No,No
+CUST-100093,47,West,38,Basic,469.73,16886.21,One Year,1,2,UPI,No,No
+CUST-100094,39,North,15,Pro,1117.51,16681.67,Month-to-Month,4,4,Wallet,Yes,Yes
+CUST-100095,55,South,60,Basic,478.65,27943.53,Month-to-Month,3,2,UPI,Yes,No
+CUST-100096,33,South,36,Pro,1160.73,40625.22,One Year,2,0,UPI,No,No
+CUST-100097,41,Central,29,Pro,1174.39,34028.13,One Year,0,0,Card,No,No
+CUST-100098,52,South,37,Pro,1110.23,40075.43,Month-to-Month,3,1,Card,Yes,Yes
+CUST-100099,43,South,17,Pro,1114.42,18833.65,Month-to-Month,2,2,Wallet,Yes,No
+CUST-100100,39,East,72,Pro,1085.69,77179.11,Month-to-Month,1,3,UPI,Yes,No
+CUST-100101,28,North,19,Basic,476.54,8835.84,Month-to-Month,3,3,Net Banking,Yes,No
+CUST-100102,48,South,23,Pro,1095.51,24385.58,Month-to-Month,3,1,Net Banking,No,No
+CUST-100103,52,East,53,Pro,1092.6,54488.33,One Year,0,2,Wallet,Yes,Yes
+CUST-100104,64,West,25,Standard,723.62,17073.62,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100105,55,South,49,Standard,732.95,34941.3,Month-to-Month,3,1,Net Banking,Yes,No
+CUST-100106,53,East,22,Basic,458.79,9965.65,Month-to-Month,0,1,Net Banking,No,No
+CUST-100107,40,West,50,Basic,412.04,20450.08,Month-to-Month,2,2,Wallet,Yes,No
+CUST-100108,33,North,34,Standard,712.25,23340.76,Month-to-Month,0,1,Wallet,No,No
+CUST-100109,64,East,63,Basic,437.81,26378.38,Month-to-Month,0,2,UPI,Yes,Yes
+CUST-100110,65,South,39,Standard,672.64,26610.41,Two Year,0,0,Card,No,No
+CUST-100111,58,North,20,Basic,483.98,9273.67,Month-to-Month,1,1,Wallet,No,No
+CUST-100112,26,Central,69,Basic,367.83,24918.68,Month-to-Month,3,1,Card,No,No
+CUST-100113,19,South,27,Standard,674.18,17207.77,One Year,0,1,Net Banking,No,Yes
+CUST-100114,55,South,15,Pro,1072.55,16073.44,Month-to-Month,3,1,Wallet,No,Yes
+CUST-100115,38,West,46,Standard,716.31,31666.76,Two Year,0,1,Net Banking,No,No
+CUST-100116,23,East,20,Pro,1078.27,20627.16,Month-to-Month,4,1,UPI,Yes,Yes
+CUST-100117,60,Central,66,Basic,364.47,24444.65,Two Year,0,1,Wallet,Yes,Yes
+CUST-100118,20,North,37,Standard,743.61,25993.79,Month-to-Month,1,2,Wallet,No,No
+CUST-100119,23,Central,20,Standard,771.39,14629.81,Month-to-Month,2,3,UPI,Yes,No
+CUST-100120,27,East,4,Pro,1171.18,4745.01,Two Year,1,1,Wallet,Yes,Yes
+CUST-100121,64,South,13,Pro,1158.84,14190.91,Month-to-Month,1,3,Card,Yes,Yes
+CUST-100122,19,Central,10,Pro,1114.82,11312.61,One Year,0,1,UPI,Yes,No
+CUST-100123,54,West,40,Basic,384.56,14665.95,One Year,1,0,Card,Yes,No
+CUST-100124,54,South,67,Pro,1088.34,69780.85,Two Year,2,2,Wallet,No,No
+CUST-100125,64,East,18,Basic,427.17,7352.28,Month-to-Month,0,0,UPI,No,No
+CUST-100126,62,South,72,Pro,1098.14,76337.29,One Year,0,0,Net Banking,Yes,No
+CUST-100127,37,East,20,Basic,381.9,7536.2,Month-to-Month,3,2,Net Banking,Yes,No
+CUST-100128,19,North,18,Basic,427.89,7760.71,Month-to-Month,3,1,Wallet,Yes,No
+CUST-100129,46,East,32,Pro,1141.09,35034.62,Month-to-Month,2,1,Net Banking,No,Yes
+CUST-100130,36,South,27,Pro,1156.79,30705.96,Month-to-Month,2,1,UPI,No,No
+CUST-100131,50,East,55,Basic,391.95,20515.71,Month-to-Month,3,1,Card,Yes,Yes
+CUST-100132,49,East,15,Basic,465.62,6876.36,Month-to-Month,4,3,Card,Yes,No
+CUST-100133,20,East,57,Pro,1162.38,64262.37,Month-to-Month,3,2,UPI,No,Yes
+CUST-100134,55,South,42,Pro,1102.29,46746.6,Month-to-Month,3,2,Wallet,Yes,Yes
+CUST-100135,38,East,24,Pro,1172.58,26518.04,Two Year,1,1,Net Banking,No,No
+CUST-100136,68,West,64,Basic,425.95,27435.17,Month-to-Month,1,1,Net Banking,Yes,Yes
+CUST-100137,50,South,19,Pro,1091.41,21010.9,Two Year,0,2,UPI,Yes,Yes
+CUST-100138,53,East,18,Basic,387.41,6613.23,Two Year,0,0,UPI,No,No
+CUST-100139,41,South,45,Standard,771.6,33020.14,Two Year,2,0,UPI,Yes,No
+CUST-100140,30,South,7,Pro,1126.11,7515.23,Two Year,2,1,Net Banking,Yes,No
+CUST-100141,66,Central,68,Basic,437.82,28125.2,Month-to-Month,1,0,UPI,No,No
+CUST-100142,32,West,7,Pro,1133.49,7872.01,Month-to-Month,2,0,Wallet,Yes,No
+CUST-100143,55,North,15,Standard,716.4,10349.12,Month-to-Month,2,2,Net Banking,Yes,Yes
+CUST-100144,31,North,56,Standard,692.35,38512.94,Month-to-Month,2,3,Net Banking,No,No
+CUST-100145,21,North,27,Standard,716.18,19586.55,One Year,0,2,Card,Yes,No
+CUST-100146,27,West,42,Pro,1069.15,44061.98,Month-to-Month,1,3,UPI,Yes,Yes
+CUST-100147,53,West,10,Pro,1142.75,11651.48,Two Year,3,2,Wallet,No,No
+CUST-100148,33,North,60,Pro,1100.99,66167.38,Two Year,1,0,Card,Yes,No
+CUST-100149,25,Central,37,Basic,390.01,14656.53,Month-to-Month,2,3,UPI,Yes,No
+CUST-100150,51,North,42,Standard,725.65,28908.94,Month-to-Month,1,2,Net Banking,No,Yes
+CUST-100151,51,Central,30,Basic,378.35,11204.11,Two Year,0,0,Net Banking,No,Yes
+CUST-100152,62,Central,54,Pro,1094.69,56313.84,Month-to-Month,3,2,Wallet,No,Yes
+CUST-100153,26,South,29,Basic,462.51,12849.61,One Year,0,0,Net Banking,Yes,Yes
+CUST-100154,35,East,12,Basic,423.72,5000.07,Month-to-Month,5,2,Wallet,Yes,No
+CUST-100155,38,West,32,Standard,783.86,24992.31,Two Year,3,1,Wallet,Yes,No
+CUST-100156,39,West,55,Pro,1144.11,60270.35,Month-to-Month,3,2,Net Banking,Yes,Yes
+CUST-100157,51,North,29,Standard,669.85,19016.97,One Year,1,1,Net Banking,No,No
+CUST-100158,41,North,39,Standard,722.41,27495.74,Month-to-Month,0,4,Net Banking,No,No
+CUST-100159,37,East,11,Standard,744.13,7734.91,Month-to-Month,1,3,UPI,No,Yes
+CUST-100160,18,West,20,Basic,408.24,8067.2,Month-to-Month,0,2,UPI,No,Yes
+CUST-100161,68,East,27,Basic,374.7,9811.34,Two Year,3,2,Wallet,Yes,No
+CUST-100162,47,West,18,Pro,1066.1,18932.11,Month-to-Month,4,0,Wallet,No,No
+CUST-100163,29,West,57,Pro,1107.7,62923.58,Month-to-Month,3,4,UPI,Yes,Yes
+CUST-100164,30,North,42,Pro,1106.15,44390.67,One Year,1,0,Wallet,Yes,No
+CUST-100165,64,East,34,Basic,432.94,14293.72,Two Year,0,2,Card,Yes,Yes
+CUST-100166,68,West,42,Standard,752.03,30201.05,Month-to-Month,4,1,Net Banking,Yes,Yes
+CUST-100167,31,East,19,Pro,1154.24,22067.11,Two Year,1,1,Card,Yes,No
+CUST-100168,29,South,24,Basic,445.36,10341.72,One Year,2,1,Net Banking,No,No
+CUST-100169,51,East,60,Standard,665.52,39206.5,Month-to-Month,2,2,Card,Yes,No
+CUST-100170,66,North,63,Basic,401.25,25572.83,Month-to-Month,3,1,Net Banking,Yes,No
+CUST-100171,67,West,46,Standard,721.08,33686.61,Month-to-Month,2,1,Net Banking,Yes,No
+CUST-100172,35,West,39,Standard,733.12,27607.92,Month-to-Month,4,3,Net Banking,Yes,No
+CUST-100173,36,North,53,Standard,690.63,37067.49,Month-to-Month,2,3,Net Banking,Yes,No
+CUST-100174,18,Central,20,Standard,712.08,14022.12,Two Year,3,0,Wallet,No,No
+CUST-100175,33,East,35,Standard,694.41,23769.46,Month-to-Month,3,1,Net Banking,Yes,Yes
+CUST-100176,45,East,51,Standard,679.31,32975.22,Month-to-Month,3,2,Wallet,No,No
+CUST-100177,48,North,36,Standard,762.39,26208.23,Month-to-Month,2,3,UPI,No,Yes
+CUST-100178,29,East,45,Basic,403.56,17192.54,Two Year,1,1,Wallet,No,No
+CUST-100179,62,East,45,Basic,464.54,20551.61,Two Year,1,0,Card,No,No
+CUST-100180,63,East,33,Pro,1086.88,36518.73,Month-to-Month,1,0,Wallet,No,No
+CUST-100181,38,Central,29,Basic,439.01,12520.31,Month-to-Month,1,1,Wallet,Yes,Yes
+CUST-100182,28,South,14,Pro,1149.87,16391.92,Month-to-Month,3,2,Wallet,No,Yes
+CUST-100183,34,East,0,Basic,374.64,0.0,Two Year,1,1,Card,No,Yes
+CUST-100184,60,South,68,Basic,391.9,26391.44,Two Year,1,0,UPI,Yes,No
+CUST-100185,46,East,44,Pro,1139.0,50906.75,One Year,2,0,UPI,Yes,No
+CUST-100186,47,West,19,Standard,682.6,12571.69,Two Year,0,2,UPI,Yes,No
+CUST-100187,33,East,64,Standard,767.85,47684.46,Month-to-Month,3,4,Card,No,Yes
+CUST-100188,50,East,31,Basic,474.41,14926.62,One Year,1,2,Net Banking,Yes,No
+CUST-100189,27,West,59,Pro,1145.21,65509.49,Two Year,2,0,Net Banking,No,No
+CUST-100190,62,South,21,Pro,1085.57,21853.84,Month-to-Month,1,2,UPI,Yes,No
+CUST-100191,36,East,18,Standard,694.65,11972.41,Month-to-Month,3,1,Net Banking,Yes,Yes
+CUST-100192,20,North,52,Pro,1065.63,55745.12,Month-to-Month,1,0,UPI,No,No
+CUST-100193,41,North,34,Pro,1065.7,34153.4,Month-to-Month,2,1,Card,Yes,No
+CUST-100194,56,East,52,Pro,1138.63,59000.52,One Year,1,3,Wallet,No,No
+CUST-100195,49,Central,10,Standard,742.9,7081.52,Two Year,0,0,UPI,Yes,No
+CUST-100196,57,North,17,Standard,669.22,11207.1,One Year,0,0,Card,Yes,No
+CUST-100197,64,South,54,Standard,709.69,36210.47,Month-to-Month,2,2,Wallet,No,Yes
+CUST-100198,63,North,34,Basic,452.66,15362.5,Month-to-Month,4,1,Wallet,Yes,Yes
+CUST-100199,20,East,48,Pro,1142.4,51995.02,Two Year,4,0,UPI,Yes,No
+CUST-100200,51,West,14,Basic,465.99,6160.93,One Year,0,0,Card,No,Yes
+CUST-100201,33,South,62,Basic,445.88,26861.37,Month-to-Month,4,0,UPI,No,Yes
+CUST-100202,51,South,27,Standard,715.52,19176.24,Month-to-Month,2,2,Card,No,No
+CUST-100203,51,South,62,Pro,1168.29,72395.67,Two Year,0,2,Net Banking,Yes,Yes
+CUST-100204,58,East,19,Pro,1167.5,21296.06,One Year,3,0,Card,No,No
+CUST-100205,18,South,59,Basic,475.75,27424.16,Two Year,0,2,Net Banking,No,Yes
+CUST-100206,64,East,60,Basic,419.02,23651.82,Month-to-Month,5,2,Wallet,Yes,Yes
+CUST-100207,41,North,60,Pro,1161.63,67804.74,Two Year,0,0,UPI,Yes,No
+CUST-100208,55,Central,48,Basic,414.39,20005.96,One Year,1,0,Wallet,No,No
+CUST-100209,45,Central,50,Basic,394.62,19498.62,One Year,1,1,UPI,Yes,No
+CUST-100210,35,Central,28,Basic,404.24,11047.26,Two Year,0,0,UPI,No,No
+CUST-100211,50,West,12,Standard,756.74,9019.11,Month-to-Month,2,0,Net Banking,No,No
+CUST-100212,44,North,12,Standard,762.86,8612.43,One Year,2,0,Net Banking,Yes,No
+CUST-100213,45,North,48,Standard,669.65,32659.34,Month-to-Month,1,2,Net Banking,Yes,No
+CUST-100214,59,North,2,Standard,778.72,1561.32,Month-to-Month,0,2,UPI,Yes,No
+CUST-100215,52,South,16,Standard,770.2,12446.32,One Year,0,0,Card,Yes,No
+CUST-100216,23,Central,46,Standard,741.95,33539.62,One Year,2,1,UPI,No,No
+CUST-100217,51,South,18,Pro,1137.03,20656.6,Month-to-Month,2,3,UPI,No,Yes
+CUST-100218,22,Central,40,Basic,407.68,15413.06,Month-to-Month,2,0,Net Banking,No,Yes
+CUST-100219,18,East,28,Standard,670.6,18837.53,One Year,0,2,Net Banking,Yes,No
+CUST-100220,60,West,45,Standard,764.69,33291.59,Month-to-Month,3,1,Net Banking,Yes,Yes
+CUST-100221,27,Central,59,Standard,781.66,45343.68,Two Year,2,0,Net Banking,Yes,No
+CUST-100222,20,North,9,Pro,1129.44,9890.16,Month-to-Month,0,1,Wallet,Yes,Yes
+CUST-100223,22,South,69,Basic,388.67,26956.88,Month-to-Month,1,1,Wallet,Yes,No
+CUST-100224,54,Central,46,Pro,1147.05,53715.86,Month-to-Month,5,2,Wallet,Yes,No
+CUST-100225,39,South,0,Standard,711.12,0.0,Month-to-Month,0,1,Card,Yes,Yes
+CUST-100226,24,East,53,Pro,1094.41,59085.7,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100227,41,Central,46,Standard,759.99,33726.04,Two Year,0,1,Card,Yes,No
+CUST-100228,26,West,18,Pro,1118.63,19070.58,One Year,1,1,Wallet,No,No
+CUST-100229,42,West,44,Standard,724.93,32239.23,Month-to-Month,2,2,Card,No,Yes
+CUST-100230,47,Central,21,Standard,678.61,13805.13,Month-to-Month,4,2,Net Banking,Yes,Yes
+CUST-100231,21,Central,53,Pro,1183.52,60435.73,Two Year,1,2,Net Banking,Yes,No
+CUST-100232,50,West,6,Pro,1113.42,6313.46,Month-to-Month,5,0,UPI,No,Yes
+CUST-100233,51,South,67,Standard,765.03,48816.79,Month-to-Month,3,0,UPI,Yes,No
+CUST-100234,25,West,28,Standard,779.82,21603.09,Two Year,0,0,Wallet,Yes,No
+CUST-100235,26,East,41,Basic,387.82,15675.12,Month-to-Month,2,1,UPI,Yes,Yes
+CUST-100236,26,Central,24,Pro,1159.48,26420.53,Two Year,1,2,Net Banking,Yes,Yes
+CUST-100237,24,North,46,Basic,382.02,17628.54,Month-to-Month,5,3,Card,No,Yes
+CUST-100238,63,East,34,Basic,471.44,15703.87,Month-to-Month,1,2,Net Banking,No,Yes
+CUST-100239,40,West,35,Standard,708.92,24553.39,Month-to-Month,2,1,Card,No,No
+CUST-100240,66,West,34,Standard,746.49,25683.66,Two Year,0,0,UPI,No,No
+CUST-100241,22,Central,10,Pro,1068.96,10283.37,Two Year,2,2,Wallet,No,No
+CUST-100242,43,North,13,Pro,1144.24,14350.04,Month-to-Month,4,0,Card,No,No
+CUST-100243,36,North,24,Pro,1137.04,26754.12,Month-to-Month,0,2,Wallet,No,Yes
+CUST-100244,32,South,43,Standard,777.24,33366.33,Month-to-Month,0,2,Card,Yes,No
+CUST-100245,31,West,64,Basic,420.84,25757.31,Month-to-Month,5,1,UPI,No,No
+CUST-100246,51,East,59,Standard,759.21,45458.04,One Year,0,0,Wallet,Yes,No
+CUST-100247,24,Central,9,Basic,374.31,3168.35,Month-to-Month,4,3,Wallet,Yes,Yes
+CUST-100248,44,South,32,Basic,464.31,14591.72,Month-to-Month,3,0,Wallet,No,Yes
+CUST-100249,53,East,43,Basic,380.63,16689.19,Month-to-Month,1,3,UPI,Yes,Yes
+CUST-100250,54,South,50,Basic,379.36,18638.23,Month-to-Month,3,2,Card,No,Yes
+CUST-100251,23,South,68,Pro,1079.36,72732.42,Two Year,0,1,Card,Yes,No
+CUST-100252,20,East,13,Standard,734.96,9452.23,Month-to-Month,4,3,UPI,No,Yes
+CUST-100253,58,West,70,Basic,432.79,30892.09,Month-to-Month,0,3,UPI,No,No
+CUST-100254,18,West,47,Basic,471.02,22189.1,One Year,0,0,UPI,No,No
+CUST-100255,19,Central,29,Standard,710.55,20412.7,One Year,1,2,UPI,Yes,No
+CUST-100256,62,North,22,Basic,410.98,9173.75,Two Year,1,0,UPI,Yes,Yes
+CUST-100257,68,East,56,Standard,721.44,38799.18,Two Year,5,0,Card,Yes,Yes
+CUST-100258,42,West,50,Standard,780.45,36768.23,Month-to-Month,1,3,Wallet,Yes,Yes
+CUST-100259,62,West,51,Standard,692.74,34303.02,Month-to-Month,1,0,UPI,Yes,Yes
+CUST-100260,23,Central,15,Pro,1156.71,17337.71,One Year,2,3,UPI,Yes,Yes
+CUST-100261,40,East,37,Basic,451.59,15721.34,Month-to-Month,3,2,UPI,Yes,Yes
+CUST-100262,51,East,33,Standard,720.12,23373.91,Month-to-Month,4,3,Card,Yes,Yes
+CUST-100263,46,East,56,Pro,1153.67,65429.16,Month-to-Month,1,4,UPI,No,No
+CUST-100264,48,East,20,Standard,716.64,13626.11,One Year,1,0,UPI,Yes,No
+CUST-100265,44,Central,67,Basic,457.21,30713.43,Month-to-Month,1,3,Net Banking,Yes,Yes
+CUST-100266,68,Central,21,Standard,757.74,16098.22,One Year,2,1,Wallet,No,No
+CUST-100267,41,North,45,Basic,442.28,20044.54,One Year,2,0,Card,Yes,No
+CUST-100268,62,South,68,Standard,668.9,46059.15,Month-to-Month,3,2,Wallet,Yes,Yes
+CUST-100269,45,West,55,Standard,702.11,38874.7,One Year,0,1,Net Banking,Yes,Yes
+CUST-100270,40,Central,58,Pro,1173.62,67772.27,Month-to-Month,3,2,Card,Yes,Yes
+CUST-100271,37,Central,69,Standard,771.21,53245.69,One Year,2,1,Wallet,No,No
+CUST-100272,38,Central,54,Pro,1183.84,62705.3,One Year,1,1,Wallet,No,No
+CUST-100273,46,West,49,Pro,1145.06,55187.09,Month-to-Month,2,0,Card,No,Yes
+CUST-100274,67,West,32,Basic,467.29,15031.09,One Year,0,1,Net Banking,No,No
+CUST-100275,29,Central,35,Basic,468.56,16221.65,Month-to-Month,0,1,Card,Yes,Yes
+CUST-100276,18,South,31,Pro,1126.49,34611.94,Month-to-Month,4,0,Net Banking,No,Yes
+CUST-100277,56,Central,27,Basic,482.7,12848.94,Month-to-Month,2,3,UPI,Yes,Yes
+CUST-100278,62,South,57,Standard,720.48,39083.26,Month-to-Month,1,0,Card,No,No
+CUST-100279,59,North,21,Basic,442.0,8982.64,Two Year,3,0,Wallet,No,No
+CUST-100280,31,West,21,Pro,1096.1,22617.99,Two Year,2,0,Wallet,Yes,Yes
+CUST-100281,27,Central,19,Basic,433.01,7884.27,Month-to-Month,2,4,Wallet,No,Yes
+CUST-100282,34,North,7,Standard,765.95,5053.16,One Year,3,1,UPI,Yes,Yes
+CUST-100283,49,Central,5,Standard,777.41,3901.03,Month-to-Month,3,1,Wallet,Yes,No
+CUST-100284,53,Central,3,Pro,1072.62,3166.95,Month-to-Month,1,3,UPI,Yes,Yes
+CUST-100285,29,East,40,Standard,780.69,31669.1,Month-to-Month,0,4,Card,Yes,No
+CUST-100286,43,Central,41,Basic,422.16,16611.27,One Year,1,0,Wallet,No,No
+CUST-100287,21,North,71,Pro,1122.75,75578.93,Month-to-Month,4,3,Net Banking,Yes,Yes
+CUST-100288,58,West,37,Basic,389.12,13776.67,Month-to-Month,2,1,Wallet,Yes,No
+CUST-100289,24,North,48,Pro,1117.24,52329.46,One Year,0,1,Net Banking,Yes,No
+CUST-100290,55,Central,30,Standard,750.71,21947.51,Month-to-Month,1,0,Net Banking,Yes,No
+CUST-100291,44,Central,57,Pro,1166.19,67688.09,Two Year,0,1,Net Banking,Yes,No
+CUST-100292,62,West,29,Standard,714.63,20949.47,Two Year,2,1,Wallet,Yes,No
+CUST-100293,52,North,70,Standard,722.97,49097.24,Two Year,0,0,Card,No,No
+CUST-100294,53,South,3,Basic,460.34,1306.98,One Year,0,2,Net Banking,No,Yes
+CUST-100295,63,North,8,Pro,1144.99,9038.89,Month-to-Month,2,3,Card,No,No
+CUST-100296,39,Central,42,Pro,1146.47,46302.52,Two Year,2,0,Card,No,No
+CUST-100297,32,North,38,Pro,1136.56,42301.02,One Year,0,1,Card,Yes,No
+CUST-100298,43,East,40,Pro,1129.45,43656.23,One Year,2,1,UPI,Yes,No
+CUST-100299,29,East,17,Standard,723.08,12522.17,One Year,1,1,Wallet,No,No
+CUST-100300,34,North,54,Standard,666.95,35930.93,Month-to-Month,1,1,Card,Yes,No
+CUST-100301,50,South,55,Standard,749.68,41483.01,One Year,2,0,UPI,Yes,No
+CUST-100302,58,North,56,Basic,453.44,24078.11,Month-to-Month,3,1,UPI,No,No
+CUST-100303,18,South,18,Pro,1175.72,21050.34,Month-to-Month,1,3,Net Banking,Yes,No
+CUST-100304,18,South,41,Pro,1125.99,44946.23,One Year,2,1,UPI,No,No
+CUST-100305,62,East,44,Basic,373.17,16082.7,Month-to-Month,0,3,UPI,Yes,Yes
+CUST-100306,37,East,55,Basic,404.19,22378.84,One Year,1,0,UPI,No,No
+CUST-100307,31,South,54,Standard,739.11,38353.3,Month-to-Month,4,2,Card,No,Yes
+CUST-100308,65,South,46,Basic,463.34,20691.87,One Year,2,1,UPI,No,No
+CUST-100309,60,South,26,Basic,397.13,9783.03,Month-to-Month,0,1,UPI,No,Yes
+CUST-100310,58,East,39,Basic,449.92,16727.71,Month-to-Month,2,2,UPI,Yes,No
+CUST-100311,61,South,59,Basic,469.43,27644.04,Two Year,0,1,Net Banking,No,No
+CUST-100312,63,West,30,Pro,1069.86,32186.86,One Year,1,2,Card,Yes,No
+CUST-100313,26,East,63,Standard,684.28,40835.6,Two Year,0,2,Card,Yes,Yes
+CUST-100314,32,West,61,Pro,1152.12,67189.51,Month-to-Month,3,3,UPI,Yes,Yes
+CUST-100315,25,North,26,Pro,1084.16,27254.39,Month-to-Month,2,2,Net Banking,Yes,No
+CUST-100316,36,West,38,Basic,391.19,14944.16,Month-to-Month,2,0,Net Banking,No,Yes
+CUST-100317,20,South,40,Standard,727.3,28541.12,Month-to-Month,2,4,Wallet,Yes,No
+CUST-100318,53,Central,72,Pro,1140.26,83160.76,Month-to-Month,3,4,UPI,No,No
+CUST-100319,35,North,54,Basic,473.07,25810.65,One Year,3,1,UPI,No,No
+CUST-100320,18,East,16,Pro,1142.01,17576.45,Month-to-Month,3,2,UPI,No,No
+CUST-100321,63,North,30,Pro,1146.24,33881.97,Month-to-Month,5,0,Net Banking,Yes,No
+CUST-100322,45,North,8,Standard,762.7,5878.12,One Year,3,1,Card,No,No
+CUST-100323,63,North,27,Pro,1086.81,27694.86,One Year,2,0,UPI,No,No
+CUST-100324,58,West,23,Pro,1097.72,24422.27,One Year,1,1,UPI,No,No
+CUST-100325,54,North,37,Basic,478.19,17570.94,One Year,3,0,Wallet,No,No
+CUST-100326,49,North,14,Standard,732.56,10011.32,Month-to-Month,3,3,UPI,Yes,Yes
+CUST-100327,18,East,60,Standard,742.57,42761.12,One Year,0,0,Card,Yes,No
+CUST-100328,57,West,69,Basic,415.72,28849.69,One Year,1,2,UPI,No,No
+CUST-100329,42,North,29,Pro,1142.9,32065.15,Two Year,1,0,Card,No,No
+CUST-100330,64,East,67,Pro,1154.66,72831.76,One Year,0,0,UPI,Yes,Yes
+CUST-100331,64,Central,5,Standard,730.43,3514.42,One Year,2,1,Wallet,Yes,No
+CUST-100332,34,North,59,Basic,413.78,23517.36,One Year,1,0,Card,Yes,Yes
+CUST-100333,54,East,42,Pro,1078.95,45037.37,One Year,1,0,UPI,Yes,No
+CUST-100334,41,North,49,Pro,1169.94,57859.28,Month-to-Month,1,2,Card,Yes,No
+CUST-100335,61,Central,41,Standard,741.4,29796.97,Two Year,1,0,Net Banking,Yes,No
+CUST-100336,47,North,7,Basic,479.03,3213.04,One Year,3,2,Net Banking,Yes,No
+CUST-100337,64,East,67,Pro,1178.81,78143.28,Month-to-Month,3,0,Net Banking,Yes,No
+CUST-100338,64,East,60,Basic,441.1,26384.06,One Year,0,1,Card,Yes,No
+CUST-100339,55,East,58,Pro,1065.73,62012.92,Month-to-Month,3,2,Net Banking,No,No
+CUST-100340,68,Central,12,Standard,682.58,7774.2,One Year,2,1,UPI,No,No
+CUST-100341,59,North,34,Basic,365.81,12065.09,One Year,2,0,UPI,No,No
+CUST-100342,37,West,8,Standard,783.87,6139.77,Two Year,0,1,UPI,Yes,Yes
+CUST-100343,39,South,11,Basic,424.78,4509.53,Two Year,2,0,Wallet,No,No
+CUST-100344,50,South,72,Pro,1137.76,83229.0,Month-to-Month,3,2,Card,Yes,No
+CUST-100345,32,West,27,Pro,1181.37,32178.35,Month-to-Month,2,3,UPI,No,Yes
+CUST-100346,62,South,70,Basic,423.55,28952.48,One Year,1,0,Card,No,No
+CUST-100347,40,West,12,Standard,713.2,8370.63,Month-to-Month,4,1,Net Banking,No,No
+CUST-100348,50,South,7,Basic,399.86,2714.53,Month-to-Month,2,0,Net Banking,Yes,Yes
+CUST-100349,62,West,48,Pro,1110.39,53253.53,Month-to-Month,5,2,Wallet,No,Yes
+CUST-100350,54,North,5,Basic,374.1,1859.86,Two Year,4,0,UPI,No,No
+CUST-100351,20,East,12,Standard,731.63,8713.61,Two Year,1,1,Card,Yes,No
+CUST-100352,40,West,69,Standard,769.76,52741.8,One Year,0,0,Wallet,Yes,No
+CUST-100353,52,West,18,Standard,670.46,12013.7,Two Year,0,1,Card,Yes,No
+CUST-100354,31,East,10,Basic,383.33,3766.29,Two Year,3,1,Wallet,Yes,No
+CUST-100355,48,East,32,Pro,1093.0,34426.91,Two Year,0,0,Wallet,No,No
+CUST-100356,48,East,11,Basic,372.99,3878.4,Month-to-Month,2,0,UPI,Yes,No
+CUST-100357,23,North,35,Standard,737.56,24898.8,Two Year,0,0,Card,No,No
+CUST-100358,54,South,72,Standard,783.07,53034.76,Month-to-Month,4,0,UPI,Yes,No
+CUST-100359,31,South,70,Pro,1169.0,78096.43,Two Year,1,2,UPI,No,No
+CUST-100360,52,North,43,Basic,455.33,19047.33,Month-to-Month,3,3,Wallet,No,Yes
+CUST-100361,52,South,15,Basic,442.77,6536.17,Two Year,2,0,Net Banking,Yes,No
+CUST-100362,50,North,59,Standard,706.72,41827.3,Month-to-Month,4,2,Card,Yes,No
+CUST-100363,31,West,17,Standard,775.17,12630.27,Two Year,3,1,Card,Yes,No
+CUST-100364,66,South,22,Standard,681.64,14630.53,Month-to-Month,3,3,Net Banking,Yes,No
+CUST-100365,41,South,26,Standard,760.69,18957.04,Month-to-Month,4,2,Wallet,Yes,No
+CUST-100366,58,North,5,Basic,419.64,2020.16,Month-to-Month,1,3,UPI,Yes,Yes
+CUST-100367,50,West,71,Basic,431.52,30700.09,One Year,1,1,Card,Yes,No
+CUST-100368,50,East,18,Pro,1151.13,19558.5,Month-to-Month,3,2,Net Banking,Yes,Yes
+CUST-100369,31,West,64,Basic,441.22,27367.35,Month-to-Month,4,2,UPI,Yes,Yes
+CUST-100370,26,East,3,Basic,473.91,1441.36,Month-to-Month,0,1,Card,Yes,Yes
+CUST-100371,32,South,66,Basic,393.45,25666.74,Month-to-Month,2,0,UPI,No,Yes
+CUST-100372,33,South,42,Pro,1123.02,47801.4,Month-to-Month,0,3,Net Banking,Yes,No
+CUST-100373,39,West,47,Standard,749.55,35052.15,Month-to-Month,3,1,Card,Yes,Yes
+CUST-100374,56,South,63,Basic,458.66,27897.51,Two Year,0,0,Card,No,No
+CUST-100375,60,West,48,Standard,716.23,32425.99,One Year,2,1,Wallet,Yes,No
+CUST-100376,45,North,39,Standard,691.91,25641.32,Month-to-Month,1,1,Net Banking,Yes,Yes
+CUST-100377,38,Central,2,Pro,1076.12,2131.61,Month-to-Month,0,1,UPI,No,Yes
+CUST-100378,64,West,29,Standard,701.28,19333.39,One Year,0,0,Card,No,No
+CUST-100379,29,North,7,Basic,424.89,2884.64,One Year,3,0,Card,No,Yes
+CUST-100380,54,East,38,Standard,774.08,28678.62,Month-to-Month,3,3,Card,Yes,No
+CUST-100381,62,West,28,Pro,1145.82,32467.3,Month-to-Month,1,4,Wallet,No,Yes
+CUST-100382,68,South,18,Standard,728.64,12822.21,Month-to-Month,2,3,UPI,Yes,Yes
+CUST-100383,62,Central,65,Pro,1130.35,70517.22,Month-to-Month,4,3,UPI,Yes,Yes
+CUST-100384,22,East,2,Basic,384.81,768.19,Month-to-Month,0,2,Card,Yes,No
+CUST-100385,49,South,4,Pro,1118.15,4446.82,Month-to-Month,1,2,Card,Yes,Yes
+CUST-100386,62,North,37,Pro,1139.18,40731.42,Month-to-Month,2,1,Card,No,Yes
+CUST-100387,28,South,27,Basic,482.09,12413.72,Month-to-Month,5,1,UPI,No,No
+CUST-100388,51,Central,64,Standard,695.3,43259.26,Month-to-Month,2,2,Net Banking,Yes,Yes
+CUST-100389,67,East,17,Basic,466.35,7593.97,One Year,2,3,Net Banking,No,Yes
+CUST-100390,49,West,8,Basic,400.87,3251.68,Month-to-Month,4,1,Net Banking,Yes,No
+CUST-100391,65,South,8,Basic,453.84,3444.3,Month-to-Month,3,3,UPI,No,No
+CUST-100392,34,West,63,Pro,1102.69,67934.14,Two Year,0,3,Net Banking,No,No
+CUST-100393,65,South,54,Pro,1136.23,59066.04,One Year,3,0,Net Banking,No,No
+CUST-100394,43,Central,2,Basic,477.45,964.92,Two Year,2,0,Net Banking,Yes,Yes
+CUST-100395,26,East,13,Standard,741.66,9330.79,Month-to-Month,2,3,Wallet,Yes,Yes
+CUST-100396,50,West,9,Basic,386.68,3414.8,One Year,0,0,Net Banking,Yes,No
+CUST-100397,48,North,49,Pro,1082.45,51710.83,One Year,2,1,Net Banking,Yes,Yes
+CUST-100398,54,West,23,Basic,479.25,11103.36,One Year,0,1,Net Banking,Yes,No
+CUST-100399,49,South,65,Pro,1168.18,74978.12,Month-to-Month,1,3,Card,Yes,No
+CUST-100400,24,East,23,Basic,441.27,10124.2,Month-to-Month,2,3,UPI,Yes,Yes
+CUST-100401,60,Central,26,Standard,769.03,19515.67,Month-to-Month,0,1,Wallet,Yes,No
+CUST-100402,50,South,32,Pro,1093.04,33705.26,Month-to-Month,1,2,Net Banking,Yes,Yes
+CUST-100403,41,Central,2,Pro,1149.07,2273.85,One Year,1,2,Net Banking,No,Yes
+CUST-100404,19,West,18,Basic,467.75,8020.46,Month-to-Month,1,1,Card,Yes,No
+CUST-100405,32,West,72,Standard,753.03,54031.46,Month-to-Month,5,1,Card,Yes,Yes
+CUST-100406,23,Central,72,Standard,771.5,52767.2,Two Year,1,3,Card,Yes,Yes
+CUST-100407,45,East,60,Basic,469.98,28671.84,Month-to-Month,4,3,UPI,Yes,No
+CUST-100408,39,Central,72,Basic,425.09,30288.74,Month-to-Month,2,0,Card,Yes,Yes
+CUST-100409,56,East,72,Basic,433.44,30914.21,One Year,2,1,UPI,No,No
+CUST-100410,39,North,21,Pro,1096.69,21979.2,Two Year,3,1,Wallet,Yes,No
+CUST-100411,55,East,19,Standard,734.58,13455.17,Month-to-Month,2,2,UPI,No,Yes
+CUST-100412,27,Central,41,Basic,454.95,17761.97,Two Year,3,3,Wallet,No,No
+CUST-100413,58,West,63,Standard,774.35,48196.13,One Year,1,1,Wallet,No,No
+CUST-100414,63,North,71,Pro,1100.16,74230.72,Month-to-Month,4,2,Net Banking,Yes,No
+CUST-100415,51,South,43,Standard,669.44,27129.68,Month-to-Month,3,0,Wallet,Yes,No
+CUST-100416,49,East,68,Standard,744.59,48437.65,Two Year,0,2,Card,Yes,No
+CUST-100417,35,Central,0,Pro,1140.44,0.0,Month-to-Month,3,2,UPI,No,Yes
+CUST-100418,36,East,8,Standard,709.56,5732.6,Month-to-Month,4,1,UPI,Yes,Yes
+CUST-100419,61,South,12,Pro,1164.98,13463.53,Month-to-Month,1,2,Net Banking,Yes,Yes
+CUST-100420,34,West,44,Basic,442.1,18497.3,Two Year,1,1,UPI,No,No
+CUST-100421,50,West,47,Pro,1078.26,50209.0,Month-to-Month,1,0,Card,Yes,No
+CUST-100422,48,East,6,Basic,395.22,2353.23,One Year,1,0,UPI,No,No
+CUST-100423,18,West,30,Basic,436.55,12650.13,Month-to-Month,1,1,Wallet,Yes,Yes
+CUST-100424,54,South,11,Standard,726.4,8135.96,Month-to-Month,4,3,Card,Yes,Yes
+CUST-100425,66,North,28,Basic,451.01,12719.37,Month-to-Month,1,0,Card,Yes,Yes
+CUST-100426,39,South,56,Standard,767.05,42679.7,Month-to-Month,3,3,Card,Yes,No
+CUST-100427,64,East,70,Pro,1165.73,80378.16,Month-to-Month,4,1,Net Banking,Yes,Yes
+CUST-100428,52,North,60,Pro,1097.01,66763.92,Month-to-Month,1,3,UPI,No,No
+CUST-100429,61,West,1,Basic,463.75,471.58,Month-to-Month,3,3,Net Banking,Yes,Yes
+CUST-100430,58,Central,6,Basic,440.8,2671.12,One Year,1,1,UPI,No,Yes
+CUST-100431,51,West,4,Pro,1097.44,4398.18,One Year,2,2,Net Banking,Yes,No
+CUST-100432,49,East,7,Pro,1105.43,7454.66,Month-to-Month,0,1,Net Banking,Yes,Yes
+CUST-100433,63,East,61,Basic,405.31,24255.59,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100434,44,Central,15,Standard,717.03,10163.17,One Year,1,1,Wallet,Yes,Yes
+CUST-100435,42,West,56,Basic,390.2,21586.17,One Year,1,2,Net Banking,Yes,No
+CUST-100436,46,East,41,Standard,716.84,29191.83,Two Year,1,0,Wallet,No,No
+CUST-100437,43,East,61,Basic,406.3,23652.89,One Year,2,0,Net Banking,Yes,No
+CUST-100438,43,Central,62,Basic,429.74,26699.23,Month-to-Month,3,3,Wallet,Yes,No
+CUST-100439,51,East,43,Basic,370.85,16082.97,Month-to-Month,6,4,Card,Yes,No
+CUST-100440,47,West,0,Standard,775.4,0.0,Two Year,0,0,Wallet,Yes,No
+CUST-100441,44,South,72,Basic,451.67,32185.63,Month-to-Month,3,2,Wallet,Yes,No
+CUST-100442,22,North,67,Standard,714.59,48586.24,Month-to-Month,3,3,UPI,Yes,No
+CUST-100443,38,East,28,Pro,1139.41,30340.93,Month-to-Month,2,4,Wallet,No,Yes
+CUST-100444,26,Central,40,Standard,735.15,27887.69,Two Year,2,1,Net Banking,Yes,No
+CUST-100445,27,East,8,Standard,689.39,5344.69,Month-to-Month,3,0,Card,Yes,No
+CUST-100446,34,East,54,Basic,407.25,22267.07,One Year,3,2,Net Banking,No,No
+CUST-100447,40,North,37,Basic,417.18,15446.28,One Year,3,0,Net Banking,No,No
+CUST-100448,43,Central,64,Basic,475.96,30398.22,One Year,0,0,Card,Yes,No
+CUST-100449,40,West,38,Standard,717.9,27021.38,Month-to-Month,1,0,UPI,Yes,No
+CUST-100450,43,West,28,Standard,708.86,19285.47,One Year,4,1,Wallet,Yes,No
+CUST-100451,40,South,13,Basic,402.52,5308.97,Month-to-Month,2,2,Card,No,No
+CUST-100452,59,West,4,Standard,707.07,2859.79,Two Year,0,1,Wallet,No,No
+CUST-100453,62,West,23,Basic,374.4,8556.4,Month-to-Month,3,0,UPI,Yes,No
+CUST-100454,65,North,3,Basic,475.38,1434.07,Month-to-Month,5,2,Wallet,Yes,Yes
+CUST-100455,22,South,5,Standard,711.35,3552.65,Month-to-Month,4,0,Net Banking,Yes,Yes
+CUST-100456,28,Central,22,Standard,720.4,16144.69,Month-to-Month,4,0,Net Banking,Yes,No
+CUST-100457,36,East,4,Basic,483.82,1845.4,Month-to-Month,1,2,Net Banking,Yes,Yes
+CUST-100458,28,West,68,Basic,428.95,28848.41,Month-to-Month,2,0,Net Banking,Yes,No
+CUST-100459,46,West,10,Pro,1172.94,11307.25,One Year,2,1,Card,Yes,Yes
+CUST-100460,33,Central,39,Standard,704.49,26770.04,Month-to-Month,2,2,UPI,Yes,Yes
+CUST-100461,63,North,64,Pro,1172.6,73029.76,One Year,1,1,UPI,Yes,Yes
+CUST-100462,21,West,26,Standard,664.59,17177.25,One Year,2,0,Card,Yes,No
+CUST-100463,54,North,15,Basic,386.27,5612.74,One Year,1,0,Wallet,Yes,No
+CUST-100464,44,East,17,Pro,1171.79,20317.98,Month-to-Month,2,0,Wallet,No,Yes
+CUST-100465,24,South,47,Standard,772.7,34829.86,One Year,0,0,Net Banking,Yes,No
+CUST-100466,44,Central,51,Standard,745.46,36975.83,Month-to-Month,1,3,Wallet,No,Yes
+CUST-100467,24,East,72,Pro,1103.28,80522.31,Month-to-Month,5,2,Wallet,Yes,Yes
+CUST-100468,42,Central,17,Pro,1162.64,20135.82,Month-to-Month,4,1,UPI,Yes,Yes
+CUST-100469,25,South,26,Pro,1076.09,27793.78,Month-to-Month,3,2,UPI,Yes,Yes
+CUST-100470,40,West,16,Pro,1136.5,18352.93,Month-to-Month,0,0,Wallet,Yes,No
+CUST-100471,21,West,37,Pro,1125.93,40851.27,Two Year,0,4,Net Banking,No,No
+CUST-100472,39,Central,38,Basic,429.19,16341.57,Month-to-Month,3,2,Net Banking,Yes,Yes
+CUST-100473,46,Central,37,Basic,399.07,14775.05,Month-to-Month,3,2,UPI,Yes,Yes
+CUST-100474,51,East,41,Standard,677.13,27555.74,One Year,2,1,UPI,No,No
+CUST-100475,66,South,13,Basic,467.14,6143.46,Month-to-Month,1,2,UPI,Yes,Yes
+CUST-100476,62,Central,23,Pro,1132.77,25046.82,One Year,2,0,Card,Yes,Yes
+CUST-100477,47,South,53,Standard,744.1,38566.09,Month-to-Month,5,4,Card,No,Yes
+CUST-100478,38,West,62,Pro,1175.38,73830.67,Month-to-Month,1,2,Card,Yes,No
+CUST-100479,43,West,62,Basic,437.02,26574.45,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100480,46,West,3,Basic,477.31,1437.58,Month-to-Month,2,0,UPI,Yes,Yes
+CUST-100481,28,East,26,Standard,781.11,20184.67,Two Year,3,2,Card,No,No
+CUST-100482,43,North,16,Pro,1156.94,18268.76,Month-to-Month,5,0,Wallet,Yes,No
+CUST-100483,25,Central,37,Basic,454.11,16789.21,One Year,1,2,Net Banking,No,No
+CUST-100484,62,Central,26,Basic,420.03,10441.52,Month-to-Month,2,2,Wallet,No,Yes
+CUST-100485,35,West,13,Pro,1077.36,13955.62,Month-to-Month,1,0,Card,Yes,No
+CUST-100486,39,South,22,Standard,767.59,16287.39,Month-to-Month,3,1,Wallet,Yes,Yes
+CUST-100487,61,South,42,Standard,751.35,31684.06,Month-to-Month,5,1,Net Banking,No,Yes
+CUST-100488,62,South,61,Standard,682.14,41267.3,One Year,1,2,Wallet,Yes,Yes
+CUST-100489,31,West,19,Basic,453.08,8754.88,Two Year,0,1,Card,Yes,No
+CUST-100490,36,South,31,Standard,728.04,22709.02,One Year,3,1,UPI,No,No
+CUST-100491,60,South,2,Standard,731.84,1429.49,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100492,41,Central,42,Standard,707.21,29860.57,One Year,2,3,Net Banking,No,No
+CUST-100493,54,West,63,Standard,756.82,45104.16,Month-to-Month,1,5,Card,Yes,Yes
+CUST-100494,24,North,32,Pro,1093.8,34498.79,Month-to-Month,3,2,Card,No,No
+CUST-100495,30,South,55,Standard,680.89,36212.24,Two Year,1,1,Card,Yes,No
+CUST-100496,54,Central,25,Pro,1114.63,28244.75,One Year,2,3,UPI,No,No
+CUST-100497,39,Central,59,Basic,415.36,24093.98,Month-to-Month,3,0,Wallet,No,No
+CUST-100498,65,Central,41,Basic,447.74,18155.27,Month-to-Month,5,2,UPI,Yes,No
+CUST-100499,48,East,46,Pro,1158.54,50431.54,Two Year,1,3,Card,Yes,No
+CUST-100500,26,Central,72,Basic,472.17,32522.97,Two Year,2,3,Card,Yes,No
+CUST-100501,57,East,62,Standard,704.23,43866.12,One Year,2,3,Net Banking,No,No
+CUST-100502,52,East,60,Basic,408.59,23670.38,One Year,3,3,Net Banking,Yes,No
+CUST-100503,56,Central,57,Pro,1156.97,64396.27,Month-to-Month,4,2,Net Banking,No,No
+CUST-100504,48,South,54,Basic,415.01,22276.21,One Year,0,1,UPI,No,Yes
+CUST-100505,68,East,42,Pro,1106.83,44382.68,Month-to-Month,1,0,Net Banking,Yes,No
+CUST-100506,18,North,3,Standard,675.32,2022.1,Two Year,2,1,Net Banking,Yes,Yes
+CUST-100507,42,North,53,Pro,1125.29,58393.68,Month-to-Month,2,2,Card,Yes,Yes
+CUST-100508,49,West,65,Basic,424.91,27088.33,Month-to-Month,1,1,Net Banking,No,Yes
+CUST-100509,52,Central,54,Basic,377.39,19910.71,Month-to-Month,6,4,Card,No,Yes
+CUST-100510,36,Central,33,Pro,1087.75,34578.71,Month-to-Month,2,4,Card,Yes,Yes
+CUST-100511,40,South,43,Standard,685.33,28954.62,Two Year,2,2,Card,Yes,No
+CUST-100512,59,Central,16,Standard,680.26,10357.35,One Year,0,1,Card,No,Yes
+CUST-100513,45,East,23,Pro,1156.98,25856.39,Month-to-Month,3,1,UPI,Yes,No
+CUST-100514,60,West,4,Standard,689.78,2661.38,Month-to-Month,1,2,UPI,Yes,No
+CUST-100515,49,Central,64,Basic,423.9,27567.49,One Year,0,0,Card,Yes,Yes
+CUST-100516,59,North,42,Pro,1113.39,47170.77,Two Year,0,1,Card,Yes,No
+CUST-100517,43,North,31,Basic,448.81,13231.62,Two Year,0,1,Wallet,No,No
+CUST-100518,63,West,54,Basic,437.34,22202.58,One Year,1,0,Wallet,Yes,No
+CUST-100519,41,South,38,Basic,448.27,16090.38,Month-to-Month,4,2,Card,No,Yes
+CUST-100520,46,North,3,Basic,402.84,1156.07,One Year,1,0,Card,No,No
+CUST-100521,63,Central,13,Standard,740.61,9132.73,One Year,2,0,Wallet,No,No
+CUST-100522,43,South,43,Standard,682.72,28765.93,Month-to-Month,1,2,UPI,No,Yes
+CUST-100523,34,North,61,Standard,707.48,41501.22,Month-to-Month,4,0,Card,Yes,No
+CUST-100524,56,South,5,Standard,710.78,3370.75,Month-to-Month,3,3,UPI,Yes,Yes
+CUST-100525,58,South,53,Basic,399.14,20826.7,One Year,2,0,Card,No,No
+CUST-100526,53,Central,60,Pro,1168.79,68695.51,Two Year,1,0,UPI,No,Yes
+CUST-100527,50,West,8,Basic,402.99,3257.91,Month-to-Month,1,2,Card,No,No
+CUST-100528,28,Central,40,Standard,704.04,27304.71,One Year,0,0,Card,No,Yes
+CUST-100529,58,West,18,Basic,437.25,7539.85,Month-to-Month,0,2,Card,Yes,No
+CUST-100530,20,South,33,Standard,737.48,23961.75,One Year,2,2,UPI,No,Yes
+CUST-100531,53,East,39,Basic,416.24,16268.13,One Year,0,0,Wallet,Yes,No
+CUST-100532,23,Central,36,Basic,419.92,14759.28,Month-to-Month,1,1,UPI,Yes,Yes
+CUST-100533,27,West,41,Basic,439.38,16947.51,Two Year,1,0,Wallet,Yes,No
+CUST-100534,48,Central,49,Pro,1093.41,53296.84,One Year,0,2,Net Banking,Yes,No
+CUST-100535,68,North,16,Standard,732.81,11163.96,Month-to-Month,4,3,Card,Yes,Yes
+CUST-100536,38,Central,7,Pro,1165.92,7937.88,One Year,2,0,Card,Yes,No
+CUST-100537,24,North,27,Pro,1133.57,30190.01,Month-to-Month,1,4,Net Banking,Yes,Yes
+CUST-100538,32,East,40,Standard,708.29,27091.39,One Year,2,2,Net Banking,Yes,No
+CUST-100539,46,Central,70,Basic,374.71,25899.5,Month-to-Month,3,1,Net Banking,No,Yes
+CUST-100540,33,South,19,Pro,1111.82,20724.38,One Year,2,0,UPI,No,No
+CUST-100541,58,North,11,Basic,386.73,4224.75,Month-to-Month,3,2,Card,No,No
+CUST-100542,39,South,56,Pro,1091.6,59197.3,Month-to-Month,0,1,Card,Yes,No
+CUST-100543,22,East,51,Standard,681.98,34501.59,Month-to-Month,2,1,Net Banking,No,Yes
+CUST-100544,27,South,4,Standard,775.68,2972.14,One Year,4,0,Wallet,Yes,No
+CUST-100545,18,South,12,Basic,410.5,4761.95,Month-to-Month,2,2,Wallet,No,Yes
+CUST-100546,47,North,33,Pro,1081.25,35700.46,Month-to-Month,0,3,UPI,No,No
+CUST-100547,30,West,39,Standard,746.62,28102.9,One Year,2,3,UPI,No,Yes
+CUST-100548,55,South,23,Basic,438.7,9600.56,Two Year,3,3,UPI,Yes,No
+CUST-100549,41,West,42,Standard,732.67,29232.59,One Year,1,1,UPI,Yes,No
+CUST-100550,42,South,10,Basic,459.15,4323.63,One Year,2,1,Card,No,No
+CUST-100551,19,South,58,Standard,761.7,42749.51,Month-to-Month,0,0,Wallet,No,No
+CUST-100552,42,North,54,Pro,1169.06,62927.68,Month-to-Month,2,2,Card,Yes,No
+CUST-100553,21,East,60,Pro,1105.85,63153.34,Month-to-Month,0,1,Card,Yes,No
+CUST-100554,20,North,50,Standard,696.26,33024.65,Two Year,2,2,Card,Yes,No
+CUST-100555,28,East,33,Pro,1140.12,36743.05,Month-to-Month,3,4,Wallet,No,Yes
+CUST-100556,60,West,27,Pro,1157.63,29952.89,Two Year,2,1,UPI,Yes,No
+CUST-100557,47,South,0,Basic,455.95,0.0,One Year,2,1,Wallet,Yes,No
+CUST-100558,28,South,13,Standard,675.67,8392.85,One Year,2,1,Wallet,Yes,Yes
+CUST-100559,36,West,45,Pro,1067.77,47913.54,One Year,4,0,Net Banking,Yes,No
+CUST-100560,44,East,14,Pro,1108.08,15122.47,Month-to-Month,2,3,Wallet,Yes,No
+CUST-100561,49,East,60,Basic,466.32,27668.37,One Year,3,0,Card,Yes,No
+CUST-100562,60,South,16,Basic,401.77,6120.2,One Year,5,2,Card,No,Yes
+CUST-100563,61,Central,15,Basic,400.89,6110.04,Two Year,3,0,Wallet,Yes,No
+CUST-100564,30,South,66,Pro,1070.02,69373.84,Month-to-Month,2,1,Net Banking,Yes,Yes
+CUST-100565,55,South,1,Pro,1127.31,1085.81,Two Year,0,1,UPI,Yes,No
+CUST-100566,49,East,22,Pro,1079.71,23392.63,Two Year,1,1,UPI,Yes,No
+CUST-100567,18,South,57,Standard,713.57,40924.2,Month-to-Month,3,0,Wallet,No,Yes
+CUST-100568,47,South,11,Basic,433.29,4494.91,Two Year,3,1,UPI,Yes,No
+CUST-100569,22,North,66,Basic,411.52,25566.82,One Year,2,2,Net Banking,Yes,No
+CUST-100570,39,East,65,Standard,746.62,47952.36,Month-to-Month,4,0,UPI,Yes,Yes
+CUST-100571,63,East,49,Pro,1166.78,54544.7,Month-to-Month,4,1,Card,No,Yes
+CUST-100572,28,South,59,Pro,1174.97,67930.28,Month-to-Month,2,2,Net Banking,No,No
+CUST-100573,36,South,68,Basic,412.81,27535.18,Month-to-Month,2,3,Wallet,Yes,No
+CUST-100574,20,South,44,Basic,389.85,16950.25,Month-to-Month,1,4,UPI,Yes,Yes
+CUST-100575,63,West,44,Standard,755.25,33696.31,Two Year,3,0,Card,Yes,No
+CUST-100576,68,East,10,Pro,1075.24,10541.17,Two Year,0,1,Net Banking,Yes,No
+CUST-100577,26,East,64,Basic,472.37,30707.51,Two Year,0,0,UPI,No,No
+CUST-100578,19,South,66,Standard,664.74,42813.19,One Year,3,0,Net Banking,No,No
+CUST-100579,41,West,10,Basic,417.99,4084.93,Two Year,0,1,Net Banking,No,No
+CUST-100580,54,Central,57,Pro,1116.73,60336.16,Month-to-Month,1,2,Wallet,Yes,No
+CUST-100581,43,North,9,Basic,398.81,3502.2,Month-to-Month,1,3,UPI,Yes,Yes
+CUST-100582,65,North,58,Standard,767.26,41948.07,One Year,1,1,Card,Yes,No
+CUST-100583,48,South,60,Basic,379.28,22347.17,Month-to-Month,2,2,Card,Yes,Yes
+CUST-100584,47,South,37,Standard,742.08,25889.07,Month-to-Month,2,1,Card,Yes,Yes
+CUST-100585,34,North,23,Standard,758.31,16755.04,Month-to-Month,3,3,Net Banking,No,Yes
+CUST-100586,61,North,48,Standard,664.86,30912.98,One Year,5,0,Net Banking,Yes,No
+CUST-100587,64,West,13,Basic,402.56,4958.97,Month-to-Month,1,2,Net Banking,No,Yes
+CUST-100588,68,South,64,Pro,1074.03,65855.2,Month-to-Month,2,3,Card,Yes,No
+CUST-100589,18,Central,9,Standard,698.06,6079.35,Month-to-Month,0,2,UPI,No,Yes
+CUST-100590,66,East,36,Basic,375.43,13380.94,One Year,0,1,Net Banking,No,Yes
+CUST-100591,30,North,15,Standard,672.63,9822.49,Two Year,0,1,Card,Yes,No
+CUST-100592,67,West,49,Pro,1180.65,56823.14,Two Year,3,2,Net Banking,No,Yes
+CUST-100593,25,South,29,Pro,1135.04,33182.72,One Year,1,2,Wallet,Yes,Yes
+CUST-100594,31,South,57,Pro,1134.62,63869.01,One Year,1,1,Wallet,No,No
+CUST-100595,57,North,23,Standard,700.27,15436.22,One Year,1,0,Card,No,No
+CUST-100596,47,South,71,Standard,706.56,47199.25,Month-to-Month,0,1,Wallet,Yes,No
+CUST-100597,46,North,14,Pro,1168.88,15930.82,One Year,1,0,Wallet,Yes,No
+CUST-100598,62,Central,42,Standard,781.53,31434.1,Month-to-Month,3,1,Net Banking,No,No
+CUST-100599,36,East,29,Pro,1126.41,32231.04,Month-to-Month,1,0,UPI,Yes,Yes
+CUST-100600,33,North,6,Standard,675.75,3995.41,Two Year,0,0,UPI,Yes,Yes
+CUST-100601,22,South,32,Basic,441.08,13838.6,Month-to-Month,1,1,Net Banking,Yes,Yes
+CUST-100602,52,North,8,Basic,459.14,3553.21,One Year,1,2,UPI,Yes,Yes
+CUST-100603,53,Central,32,Standard,684.51,21532.14,One Year,1,0,Net Banking,Yes,No
+CUST-100604,39,South,26,Pro,1118.0,27820.62,Month-to-Month,0,2,Card,No,Yes
+CUST-100605,68,West,31,Standard,687.42,20659.27,One Year,3,1,Card,No,No
+CUST-100606,43,East,23,Standard,729.34,15792.35,One Year,1,2,UPI,Yes,No
+CUST-100607,41,Central,16,Basic,378.98,5769.49,Month-to-Month,0,2,UPI,No,Yes
+CUST-100608,39,North,70,Pro,1064.93,75707.8,Month-to-Month,4,2,Wallet,No,Yes
+CUST-100609,44,South,55,Basic,436.3,22848.28,Month-to-Month,4,3,Wallet,No,Yes
+CUST-100610,38,East,70,Standard,674.36,45311.42,Two Year,4,2,Card,Yes,No
+CUST-100611,42,South,46,Basic,426.2,19662.45,Month-to-Month,5,1,UPI,Yes,No
+CUST-100612,50,North,65,Standard,733.14,47184.27,One Year,0,0,UPI,No,Yes
+CUST-100613,33,East,52,Basic,434.18,22882.88,Month-to-Month,2,2,Wallet,No,No
+CUST-100614,36,North,28,Basic,452.13,12164.95,Month-to-Month,0,2,Net Banking,Yes,No
+CUST-100615,68,North,29,Standard,759.06,22291.21,Month-to-Month,2,2,Wallet,Yes,No
+CUST-100616,37,North,53,Basic,374.84,19305.37,Month-to-Month,2,3,Wallet,Yes,Yes
+CUST-100617,51,West,33,Pro,1118.99,36003.41,Month-to-Month,3,1,UPI,No,Yes
+CUST-100618,26,East,51,Standard,733.24,36824.0,Month-to-Month,1,1,Net Banking,Yes,Yes
+CUST-100619,18,South,38,Basic,408.75,14955.26,Month-to-Month,3,2,UPI,Yes,No
+CUST-100620,29,Central,39,Pro,1101.93,40768.08,Month-to-Month,5,0,Card,No,No
+CUST-100621,48,East,15,Pro,1147.39,16468.9,Month-to-Month,0,3,Wallet,Yes,Yes
+CUST-100622,58,West,37,Basic,439.96,15775.98,Month-to-Month,0,4,Wallet,Yes,Yes
+CUST-100623,64,West,51,Basic,443.49,22383.18,Two Year,3,2,Net Banking,No,No
+CUST-100624,45,North,63,Standard,715.65,44889.29,One Year,0,3,UPI,No,No
+CUST-100625,34,North,34,Pro,1098.58,36728.34,One Year,0,2,Card,Yes,No
+CUST-100626,27,North,43,Basic,481.27,20424.04,Two Year,1,0,Wallet,Yes,No
+CUST-100627,20,South,5,Pro,1111.36,5323.88,Two Year,0,0,UPI,Yes,Yes
+CUST-100628,26,North,69,Standard,737.88,49418.27,Month-to-Month,3,3,Wallet,Yes,No
+CUST-100629,42,East,71,Standard,756.47,54062.41,Two Year,2,0,Card,Yes,Yes
+CUST-100630,23,East,44,Basic,426.31,18148.79,Month-to-Month,3,1,Card,No,Yes
+CUST-100631,65,North,65,Pro,1175.43,75274.61,Month-to-Month,2,4,Wallet,Yes,Yes
+CUST-100632,35,North,64,Standard,752.48,47942.41,Month-to-Month,0,2,Wallet,No,Yes
+CUST-100633,35,West,41,Basic,422.27,16626.72,Month-to-Month,4,2,Net Banking,No,Yes
+CUST-100634,68,West,33,Pro,1126.33,36540.23,One Year,1,0,Wallet,Yes,No
+CUST-100635,61,North,23,Standard,718.22,16455.41,Month-to-Month,5,0,UPI,Yes,Yes
+CUST-100636,34,West,51,Basic,384.06,19938.25,One Year,1,0,Net Banking,No,No
+CUST-100637,26,North,16,Basic,399.62,6152.72,Two Year,2,1,Wallet,No,No
+CUST-100638,41,South,34,Basic,373.68,12049.18,Month-to-Month,4,2,Card,Yes,Yes
+CUST-100639,52,West,39,Standard,697.23,27154.82,Month-to-Month,2,2,Net Banking,No,Yes
+CUST-100640,29,Central,56,Basic,462.87,24919.91,Month-to-Month,1,0,UPI,Yes,No
+CUST-100641,39,East,72,Pro,1096.48,79908.57,Month-to-Month,2,0,UPI,No,No
+CUST-100642,57,East,6,Pro,1173.47,6836.2,Two Year,1,2,Net Banking,Yes,Yes
+CUST-100643,67,Central,69,Standard,747.78,51955.41,Month-to-Month,3,2,Card,No,No
+CUST-100644,26,South,26,Pro,1180.17,29775.63,One Year,1,1,Net Banking,No,No
+CUST-100645,21,East,13,Standard,691.24,8536.78,Month-to-Month,4,2,Card,Yes,No
+CUST-100646,58,North,12,Basic,462.87,5605.24,One Year,5,0,UPI,Yes,No
+CUST-100647,33,West,65,Basic,384.21,24026.56,Month-to-Month,0,0,UPI,Yes,No
+CUST-100648,47,North,63,Basic,471.65,29374.83,Month-to-Month,3,2,Card,No,No
+CUST-100649,64,East,37,Standard,752.89,26917.79,One Year,2,0,Card,No,No
+CUST-100650,68,West,64,Standard,680.74,41993.78,Month-to-Month,3,3,Net Banking,Yes,Yes
+CUST-100651,46,East,72,Basic,388.47,27998.36,One Year,0,0,Wallet,Yes,No
+CUST-100652,37,Central,65,Pro,1098.21,67156.01,One Year,0,1,Card,Yes,No
+CUST-100653,53,South,64,Pro,1183.96,76025.68,One Year,2,0,UPI,Yes,Yes
+CUST-100654,28,South,26,Pro,1071.08,27695.96,One Year,1,1,Net Banking,Yes,Yes
+CUST-100655,28,Central,7,Basic,463.67,3142.73,Month-to-Month,0,2,Net Banking,No,No
+CUST-100656,68,West,8,Pro,1172.36,8981.41,Month-to-Month,3,3,UPI,Yes,No
+CUST-100657,45,East,39,Basic,380.53,14881.73,One Year,1,0,Card,Yes,No
+CUST-100658,62,East,12,Basic,434.84,4911.83,One Year,3,0,UPI,Yes,No
+CUST-100659,41,West,55,Basic,401.01,20904.32,Month-to-Month,5,2,Net Banking,Yes,No
+CUST-100660,45,South,10,Basic,448.85,4505.2,One Year,2,0,Wallet,No,No
+CUST-100661,45,West,19,Basic,450.04,8291.51,One Year,0,2,Net Banking,No,No
+CUST-100662,67,Central,16,Standard,739.38,11228.44,Two Year,0,2,Wallet,Yes,No
+CUST-100663,44,Central,14,Standard,680.31,9349.08,Two Year,2,3,Net Banking,Yes,No
+CUST-100664,26,South,32,Basic,385.74,11892.74,One Year,1,0,Net Banking,No,No
+CUST-100665,47,West,41,Pro,1072.93,42333.96,One Year,1,1,UPI,Yes,No
+CUST-100666,64,South,57,Pro,1180.48,64719.0,One Year,0,2,Net Banking,Yes,No
+CUST-100667,29,West,28,Basic,478.54,13267.08,Month-to-Month,2,4,Wallet,Yes,No
+CUST-100668,23,West,7,Pro,1163.23,7912.65,Two Year,0,2,Card,No,No
+CUST-100669,31,North,25,Basic,372.32,9230.01,Month-to-Month,3,0,Wallet,Yes,Yes
+CUST-100670,25,West,34,Standard,712.56,23027.39,One Year,1,2,Card,No,Yes
+CUST-100671,62,South,61,Standard,762.58,46904.65,Month-to-Month,3,0,Net Banking,Yes,Yes
+CUST-100672,41,Central,31,Pro,1108.56,34486.84,Month-to-Month,4,1,UPI,No,Yes
+CUST-100673,60,West,65,Pro,1120.06,71532.41,Month-to-Month,4,2,Net Banking,Yes,Yes
+CUST-100674,19,East,31,Pro,1113.6,32810.93,Month-to-Month,4,0,UPI,No,No
+CUST-100675,55,South,57,Standard,743.19,40677.3,Month-to-Month,4,3,Wallet,Yes,Yes
+CUST-100676,38,East,23,Standard,716.16,15787.26,Two Year,3,2,Card,Yes,No
+CUST-100677,37,South,72,Basic,469.62,33802.71,Month-to-Month,0,1,UPI,Yes,No
+CUST-100678,50,West,5,Pro,1139.85,5476.97,Month-to-Month,2,1,Wallet,No,No
+CUST-100679,67,East,41,Standard,730.95,29838.7,Two Year,3,0,Card,No,No
+CUST-100680,39,South,59,Pro,1150.57,65370.92,Month-to-Month,1,1,Card,No,Yes
+CUST-100681,24,East,16,Basic,470.04,7476.69,One Year,1,0,UPI,No,No
+CUST-100682,18,East,61,Standard,726.17,43812.47,One Year,0,0,Net Banking,Yes,No
+CUST-100683,37,East,51,Pro,1161.13,55759.92,Month-to-Month,4,2,UPI,Yes,Yes
+CUST-100684,31,North,71,Pro,1104.46,77551.55,One Year,3,0,Card,Yes,No
+CUST-100685,63,East,33,Standard,762.89,24788.3,Month-to-Month,2,3,UPI,No,Yes
+CUST-100686,59,South,41,Pro,1079.24,43460.46,Two Year,0,0,UPI,Yes,No
+CUST-100687,43,East,20,Basic,458.56,8814.26,Month-to-Month,4,1,Net Banking,No,Yes
+CUST-100688,35,East,42,Standard,724.73,30634.01,Month-to-Month,2,1,Card,Yes,Yes
+CUST-100689,50,South,46,Pro,1108.59,50552.07,Month-to-Month,4,0,UPI,No,Yes
+CUST-100690,48,South,68,Pro,1082.77,70249.98,One Year,2,1,Card,Yes,Yes
+CUST-100691,40,Central,7,Standard,702.58,4721.44,Month-to-Month,4,2,Card,Yes,No
+CUST-100692,25,South,26,Basic,431.82,10699.08,Month-to-Month,0,1,Card,Yes,Yes
+CUST-100693,51,Central,26,Basic,415.42,10730.93,Month-to-Month,4,3,UPI,Yes,No
+CUST-100694,58,North,24,Standard,767.59,18459.74,Two Year,3,0,UPI,No,No
+CUST-100695,68,West,14,Standard,723.53,9809.97,One Year,1,2,Wallet,No,No
+CUST-100696,67,Central,6,Basic,408.89,2326.95,Two Year,2,1,Wallet,Yes,No
+CUST-100697,67,Central,26,Pro,1097.66,27751.55,Month-to-Month,5,2,UPI,No,No
+CUST-100698,27,North,37,Standard,739.82,25821.54,One Year,1,2,UPI,Yes,No
+CUST-100699,68,West,25,Basic,443.34,10705.64,Two Year,1,1,Card,Yes,Yes
+CUST-100700,65,North,19,Basic,442.38,7997.02,Month-to-Month,3,2,Net Banking,No,Yes
+CUST-100701,45,South,60,Standard,676.67,41307.06,Month-to-Month,4,0,UPI,No,Yes
+CUST-100702,38,West,59,Pro,1146.45,66636.15,Month-to-Month,4,3,Wallet,No,Yes
+CUST-100703,59,Central,17,Standard,685.33,11272.7,Month-to-Month,2,2,Net Banking,No,Yes
+CUST-100704,34,South,20,Standard,755.74,14404.35,Month-to-Month,3,2,Net Banking,Yes,Yes
+CUST-100705,50,West,14,Basic,420.76,5780.14,Month-to-Month,0,0,Net Banking,No,No
+CUST-100706,65,North,57,Standard,759.81,41525.71,Month-to-Month,1,2,UPI,No,Yes
+CUST-100707,18,South,30,Pro,1085.54,31533.85,Month-to-Month,3,3,Net Banking,No,Yes
+CUST-100708,31,Central,49,Standard,677.59,32227.8,Month-to-Month,3,2,Net Banking,No,Yes
+CUST-100709,44,West,8,Standard,733.21,5751.25,One Year,0,0,UPI,Yes,Yes
+CUST-100710,54,North,21,Standard,749.34,14818.91,Month-to-Month,4,3,Net Banking,Yes,No
+CUST-100711,64,West,61,Pro,1175.74,68841.25,Month-to-Month,1,1,Wallet,No,Yes
+CUST-100712,36,North,40,Pro,1100.05,42973.11,One Year,0,1,Net Banking,No,No
+CUST-100713,49,East,42,Standard,681.88,27348.16,One Year,2,1,Net Banking,Yes,No
+CUST-100714,36,South,34,Standard,777.7,26381.9,One Year,0,0,Card,Yes,No
+CUST-100715,57,North,4,Basic,435.98,1753.29,Month-to-Month,1,0,Wallet,No,No
+CUST-100716,59,South,12,Basic,454.87,5441.89,Month-to-Month,2,2,Net Banking,Yes,Yes
+CUST-100717,52,Central,25,Basic,449.39,11269.88,Two Year,2,0,Net Banking,No,Yes
+CUST-100718,41,West,36,Basic,374.76,13116.25,One Year,4,0,UPI,Yes,No
+CUST-100719,66,North,24,Basic,412.85,9704.13,One Year,1,0,Net Banking,Yes,No
+CUST-100720,45,East,58,Standard,717.89,40053.93,Two Year,3,1,Card,No,No
+CUST-100721,59,South,41,Basic,404.76,16024.85,Month-to-Month,0,2,Wallet,Yes,Yes
+CUST-100722,24,North,37,Basic,472.49,16620.45,One Year,0,3,UPI,No,Yes
+CUST-100723,58,West,24,Standard,771.15,17967.8,Month-to-Month,3,1,Card,No,Yes
+CUST-100724,58,Central,49,Pro,1147.18,55794.76,Month-to-Month,2,1,Card,No,Yes
+CUST-100725,68,Central,2,Pro,1087.36,2144.34,Month-to-Month,3,3,Wallet,No,Yes
+CUST-100726,34,West,34,Basic,398.4,13407.65,One Year,1,0,UPI,No,No
+CUST-100727,48,North,68,Basic,418.75,28969.7,One Year,2,1,UPI,Yes,No
+CUST-100728,53,Central,64,Basic,397.1,24018.32,One Year,0,0,Card,Yes,No
+CUST-100729,53,North,22,Standard,727.47,15518.82,One Year,1,3,Net Banking,Yes,No
+CUST-100730,61,West,43,Pro,1135.06,49172.39,One Year,3,0,Wallet,Yes,No
+CUST-100731,55,Central,24,Standard,704.97,16434.06,Month-to-Month,0,1,Wallet,No,No
+CUST-100732,29,East,69,Basic,371.12,25388.77,One Year,1,2,Wallet,No,No
+CUST-100733,41,South,21,Pro,1166.97,23134.59,Two Year,1,2,Wallet,No,No
+CUST-100734,68,North,64,Basic,395.79,24705.8,One Year,3,2,UPI,Yes,Yes
+CUST-100735,53,South,47,Pro,1104.2,49811.5,One Year,0,0,Card,Yes,No
+CUST-100736,43,Central,49,Basic,381.31,17802.7,Two Year,2,0,Wallet,Yes,No
+CUST-100737,43,North,62,Basic,370.85,22500.41,Month-to-Month,0,0,UPI,No,No
+CUST-100738,44,East,26,Pro,1173.45,29847.16,Month-to-Month,5,2,Card,Yes,No
+CUST-100739,38,West,71,Basic,405.25,29065.04,Month-to-Month,2,4,Card,No,Yes
+CUST-100740,62,Central,21,Basic,398.65,8395.96,One Year,2,0,UPI,No,No
+CUST-100741,39,North,69,Pro,1170.16,77798.94,Month-to-Month,3,0,Wallet,Yes,Yes
+CUST-100742,42,South,41,Standard,783.46,32285.4,One Year,0,0,Card,No,No
+CUST-100743,64,West,60,Standard,743.45,43890.68,Two Year,1,0,Wallet,No,No
+CUST-100744,32,Central,16,Standard,705.14,10781.14,Two Year,0,0,Net Banking,Yes,No
+CUST-100745,67,East,48,Basic,389.44,18767.66,One Year,1,1,Card,Yes,No
+CUST-100746,59,Central,45,Pro,1155.57,51373.93,Two Year,4,1,UPI,Yes,No
+CUST-100747,37,East,65,Standard,758.43,49415.18,Two Year,2,2,Net Banking,Yes,Yes
+CUST-100748,25,South,53,Pro,1176.19,60603.96,Month-to-Month,3,2,UPI,No,No
+CUST-100749,54,North,55,Pro,1122.27,58605.2,Month-to-Month,1,0,Card,Yes,No
+CUST-100750,58,East,68,Standard,755.24,51373.73,Two Year,0,2,Wallet,Yes,Yes
+CUST-100751,30,South,52,Pro,1075.56,53077.22,Month-to-Month,1,2,Wallet,Yes,Yes
+CUST-100752,60,South,50,Basic,393.65,19951.26,One Year,5,1,UPI,No,No
+CUST-100753,33,South,41,Pro,1125.79,44019.84,Month-to-Month,4,0,Net Banking,Yes,No
+CUST-100754,18,East,23,Standard,682.58,15026.99,Two Year,0,2,UPI,Yes,No
+CUST-100755,67,North,50,Basic,455.11,22973.26,Two Year,1,1,Net Banking,Yes,No
+CUST-100756,54,South,33,Pro,1162.06,39011.99,One Year,2,0,Wallet,Yes,Yes
+CUST-100757,43,Central,63,Standard,700.0,43749.06,Month-to-Month,3,1,UPI,No,No
+CUST-100758,34,East,46,Basic,471.09,20794.01,One Year,0,1,Card,Yes,Yes
+CUST-100759,65,North,32,Pro,1065.2,34184.25,Month-to-Month,2,2,Card,No,Yes
+CUST-100760,54,South,57,Basic,454.1,24545.11,Two Year,0,1,Wallet,Yes,No
+CUST-100761,29,East,52,Standard,730.64,38739.8,Month-to-Month,1,1,UPI,Yes,Yes
+CUST-100762,62,North,16,Standard,688.16,10376.73,Month-to-Month,0,2,Wallet,Yes,No
+CUST-100763,48,North,4,Basic,426.46,1712.76,One Year,0,1,Net Banking,Yes,No
+CUST-100764,62,East,10,Standard,752.01,7590.04,Two Year,2,0,Card,Yes,No
+CUST-100765,20,North,36,Standard,671.68,23976.98,Month-to-Month,3,1,Card,Yes,Yes
+CUST-100766,22,East,5,Pro,1126.21,5446.14,One Year,1,3,Net Banking,Yes,No
+CUST-100767,37,East,62,Standard,671.06,39766.87,One Year,3,0,Net Banking,Yes,Yes
+CUST-100768,24,Central,70,Pro,1107.29,73219.76,One Year,2,0,Net Banking,Yes,No
+CUST-100769,36,West,26,Basic,438.67,11331.43,Two Year,0,1,Card,Yes,Yes
+CUST-100770,23,Central,35,Basic,399.95,13976.83,Month-to-Month,3,2,UPI,No,Yes
+CUST-100771,31,West,2,Standard,684.34,1395.51,Month-to-Month,3,2,Card,No,Yes
+CUST-100772,44,East,48,Standard,671.48,31048.72,Two Year,1,2,Wallet,No,No
+CUST-100773,45,West,61,Basic,395.47,24082.24,Two Year,0,1,Wallet,Yes,No
+CUST-100774,32,North,67,Pro,1105.65,71027.79,Two Year,1,0,UPI,Yes,No
+CUST-100775,56,North,32,Standard,682.05,21654.11,Month-to-Month,3,3,Wallet,No,Yes
+CUST-100776,56,South,39,Standard,664.54,26415.06,Month-to-Month,0,1,Wallet,No,Yes
+CUST-100777,25,West,18,Pro,1102.18,19209.19,One Year,0,0,Wallet,Yes,No
+CUST-100778,24,North,66,Pro,1182.91,78080.53,One Year,0,0,Net Banking,Yes,No
+CUST-100779,23,Central,55,Pro,1138.69,63183.35,One Year,3,0,Card,No,No
+CUST-100780,41,South,49,Standard,668.71,31227.75,One Year,2,2,UPI,No,Yes
+CUST-100781,28,North,53,Standard,668.96,35976.25,Month-to-Month,3,1,Wallet,Yes,Yes
+CUST-100782,26,West,30,Basic,414.92,12514.49,Two Year,1,0,Net Banking,Yes,No
+CUST-100783,28,North,23,Basic,392.19,8753.09,Month-to-Month,2,1,Wallet,Yes,No
+CUST-100784,19,Central,2,Basic,477.85,907.39,Two Year,1,0,Wallet,Yes,No
+CUST-100785,22,East,11,Basic,470.86,5119.06,Month-to-Month,2,2,UPI,Yes,Yes
+CUST-100786,37,North,26,Standard,679.61,17771.1,Two Year,0,2,Net Banking,Yes,Yes
+CUST-100787,29,Central,18,Pro,1106.02,18890.88,Month-to-Month,2,3,Net Banking,Yes,No
+CUST-100788,54,North,2,Basic,430.76,830.27,Month-to-Month,0,1,Card,No,Yes
+CUST-100789,41,North,14,Basic,386.31,5182.19,One Year,4,0,Net Banking,Yes,No
+CUST-100790,67,Central,58,Basic,375.64,20759.69,Month-to-Month,4,3,Net Banking,Yes,No
+CUST-100791,27,Central,63,Pro,1113.39,69319.95,One Year,4,0,Wallet,Yes,No
+CUST-100792,34,South,36,Basic,381.49,13156.09,One Year,1,0,UPI,No,No
+CUST-100793,37,South,40,Basic,384.04,15039.58,Month-to-Month,5,3,Wallet,Yes,Yes
+CUST-100794,66,North,7,Basic,370.51,2502.7,Month-to-Month,2,3,Card,No,Yes
+CUST-100795,56,North,68,Pro,1084.87,71642.18,Month-to-Month,0,0,Net Banking,Yes,No
+CUST-100796,31,East,21,Pro,1099.11,23297.97,Month-to-Month,4,2,Net Banking,Yes,Yes
+CUST-100797,43,South,45,Pro,1129.46,48548.4,Month-to-Month,1,2,UPI,Yes,Yes
+CUST-100798,54,West,62,Pro,1082.27,63144.04,Two Year,1,0,UPI,Yes,No
+CUST-100799,58,East,68,Standard,680.09,46232.93,Month-to-Month,2,2,Card,No,No
+CUST-100800,63,West,61,Standard,753.57,44566.43,Two Year,1,0,Net Banking,Yes,No
